@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+11-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:5:5-6:62
+11-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:5:17-72
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:8:5-66
+13-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:12:5-71
+14-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:12:22-68
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:13:5-96
+15-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:13:22-77
+16    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEM" />
+16-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:14:5-82
+16-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:14:22-80
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:15:5-80
+17-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:15:22-78
+18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+18-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:16:5-82
+18-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:16:22-79
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:17:5-81
+19-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:17:22-78
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:18:5-81
+20-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:18:22-62
+21
+22    <application
+22-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:20:5-45:19
+23        android:allowBackup="true"
+23-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:21:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] D:\Android\AndroidStudio\jre\caches\transforms-3\5586099dc2be2a001572cf14c2426ba8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:23:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:24:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:25:9-43
+30        android:label="@string/app_name"
+30-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:26:9-41
+31        android:requestLegacyExternalStorage="true"
+31-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:29:9-52
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:27:9-54
+33        android:supportsRtl="true"
+33-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:28:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.MyApplication"
+35-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:30:9-51
+36        android:usesCleartextTraffic="false" >
+36-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:22:9-45
+37        <activity
+37-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:32:9-44:20
+38            android:name="com.example.myapplication.MainActivity"
+38-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:33:13-41
+39            android:exported="true" >
+39-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:34:13-36
+40            <intent-filter>
+40-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:35:13-39:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:36:17-69
+41-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:36:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:38:17-77
+43-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:38:27-74
+44            </intent-filter>
+45
+46            <meta-data
+46-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:41:13-43:36
+47                android:name="android.app.lib_name"
+47-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:42:17-52
+48                android:value="" />
+48-->D:\Android\MyApplication\app\src\main\AndroidManifest.xml:43:17-33
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.0.0] D:\Android\AndroidStudio\jre\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.0.0] D:\Android\AndroidStudio\jre\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+53            android:authorities="com.example.myapplication.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.0.0] D:\Android\AndroidStudio\jre\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.0.0] D:\Android\AndroidStudio\jre\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] D:\Android\AndroidStudio\jre\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] D:\Android\AndroidStudio\jre\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] D:\Android\AndroidStudio\jre\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Android\AndroidStudio\jre\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Android\AndroidStudio\jre\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Android\AndroidStudio\jre\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
